@@ -57,7 +57,7 @@ test('TC-03 Deposit', async ({ page }) => {
     await page.waitForTimeout(6000);
 
     await page.click('[ng-class="btnClass1"]');
-    await page.waitForTimeout(10000);
+    // await page.waitForTimeout(10000);
 });
 
 test('TC-04 Withdraw', async ({ page }) => {
